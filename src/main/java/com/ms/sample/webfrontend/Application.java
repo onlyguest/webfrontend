@@ -13,6 +13,6 @@ public class Application {
 
     @RequestMapping(value = "/greeting", produces = "text/plain")
     public String greeting() {
-        return "Hello from webfrontend";
+        return "Hello from webfrontend 1";
     }
 }
